@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My first PHP page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mypage</title>
 </head>
 <body>
-<h1>My first PHP page</h1>
-<?php
-#Simple hello world page
-echo "Hello World!";
+    <?php
+echo'hello world';
 echo '<a href="https:www.google.com">Google</a>';
-?>
+    ?>
 </body>
 </html>
+
