@@ -1,4 +1,0 @@
-#include methode
-we use include in php to copy and paste part of a site, we need to use at different point. we create then the part of the text we want to reuse and create another file with php extension. tHen we fecth the file through the file of php.
-#require method
-the difference between both of them is that the required method produce a fatal error and stop the script if php fail to find the required file. On the other hand, include will produce a warning without stopping the script. If the file , you want to copy and passte is crucial to the correct execution of the page, you should use require method otherwise you can use the include statement.
